@@ -40,7 +40,7 @@ You may not:
 
 ### Subscription Terms
 - **Monthly**: $1.99 per month, auto-renewing
-- **Annual**: $19.99 per year, auto-renewing  
+- **Annual**: $14.99 per year, auto-renewing  
 - **Lifetime**: $24.99 one-time purchase
 
 ### Cancellation and Refunds
