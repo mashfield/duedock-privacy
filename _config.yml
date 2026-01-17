@@ -1,0 +1,13 @@
+# Site settings
+title: "DueDock Privacy Policy"
+description: "DueDock Privacy Policy - Privacy-first bill management app"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Override site name
+name: "DueDock Privacy Policy"
+
+# Hide GitHub branding
+github: [metadata]
