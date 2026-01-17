@@ -19,7 +19,30 @@
         .site-header,
         header,
         .repo-name,
-        .repository-name {
+        .repository-name,
+        .page-title,
+        .site-title {
+            display: none !important;
+        }
+        
+        /* Hide page title from browser tab */
+        title {
+            display: none !important;
+        }
+        
+        /* Hide any GitHub Pages default elements */
+        .github-fork-ribbon,
+        .fork-me,
+        .github-corner svg,
+        .octo-cat,
+        .octo-arm {
+            display: none !important;
+        }
+        
+        /* Hide any default GitHub Pages navigation */
+        nav,
+        .navigation,
+        .breadcrumb {
             display: none !important;
         }
         
@@ -55,6 +78,22 @@
             color: #666;
         }
     </style>
+    <script>
+        // Remove GitHub Pages repository name from page title
+        document.addEventListener('DOMContentLoaded', function() {
+            // Remove repository name from title
+            var originalTitle = document.title;
+            if (originalTitle.includes('|')) {
+                document.title = originalTitle.split('|')[0].trim();
+            }
+            
+            // Remove any GitHub Pages elements
+            var elements = document.querySelectorAll('.github-corner, .site-header, header, .repo-name, .repository-name, .page-title, .site-title');
+            elements.forEach(function(el) {
+                el.style.display = 'none';
+            });
+        });
+    </script>
 </head>
 <body>
     <h1>DueDock Terms of Use</h1>
