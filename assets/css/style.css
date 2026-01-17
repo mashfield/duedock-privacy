@@ -1,0 +1,22 @@
+<style>
+  /* Hide GitHub Pages repository name header */
+  .github-corner svg,
+  .github-corner:hover .octo-arm,
+  .github-corner .octo-arm {
+    display: none !important;
+  }
+  
+  /* Hide any repository name or header elements */
+  header,
+  .site-header,
+  .repo-name,
+  .repository-name {
+    display: none !important;
+  }
+  
+  /* Hide any default GitHub Pages branding */
+  .github-fork-ribbon,
+  .fork-me {
+    display: none !important;
+  }
+</style>
