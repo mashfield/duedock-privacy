@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DueDock User Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #5f6368;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #80868b;
+            margin-top: 25px;
+        }
+        .highlight {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-left: 4px solid #1a73e8;
+            margin: 20px 0;
+        }
+        .step {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .tip {
+            background-color: #e6f4ea;
+            padding: 15px;
+            border-left: 4px solid #34a853;
+            margin: 20px 0;
+        }
+        .warning {
+            background-color: #fce8e6;
+            padding: 15px;
+            border-left: 4px solid #ea4335;
+            margin: 20px 0;
+        }
+        code {
+            background-color: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Monaco, monospace;
+        }
+        .swipe-action {
+            display: flex;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 8px;
+        }
+        .swipe-icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DueDock User Guide</h1>
+    
+    <div class="highlight">
+        <strong>Welcome to DueDock!</strong> This comprehensive guide will help you master DueDock's features for effective bill management and financial planning.
+    </div>
+
+    <h2>Getting Started</h2>
+    
+    <h3>1. Initial Setup</h3>
+    <div class="step">
+        <strong>Step 1:</strong> Open DueDock and grant access to your Files app for backup/export features.<br>
+        <strong>Step 2:</strong> Create your first Account to organize bills by bank, credit card, or category.<br>
+        <strong>Step 3:</strong> Add your first bill using the <code>+</code> button.
+    </div>
+
+    <h3>2. Understanding the Dashboard</h3>
+    <p>The dashboard shows your financial overview with color-coded indicators:</p>
+    <ul>
+        <li><strong>Green:</strong> Healthy coverage - you have enough funds</li>
+        <li><strong>Yellow:</strong> Caution - tight budget, review spending</li>
+        <li><strong>Red:</strong> Alert - insufficient funds for upcoming bills</li>
+    </ul>
+
+    <h2>Core Features</h2>
+
+    <h3>Coverage Check</h3>
+    <p>The Coverage Check automatically shows what's due before your next income source. It's always active and updates in real-time.</p>
+    <div class="tip">
+        <strong>Pro Tip:</strong> Use Coverage Check for day-to-day planning and the Planning Period for longer-term goals.
+    </div>
+
+    <h3>Planning Period</h3>
+    <p>Set a future end date to see your financial summary for any time period. Perfect for:</p>
+    <ul>
+        <li>Monthly budget planning</li>
+        <li>Vacation cost calculations</li>
+        <li>Savings goal tracking</li>
+    </ul>
+
+    <h3>Bill Management</h3>
+
+    <h4>Adding Bills</h4>
+    <div class="step">
+        <strong>To add a bill:</strong><br>
+        1. Tap the <code>+</code> button<br>
+        2. Enter bill name and amount<br>
+        3. Set due date and frequency<br>
+        4. Select account and category<br>
+        5. Add tags for organization (optional)
+    </div>
+
+    <h4>Swipe Actions</h4>
+    <div class="swipe-action">
+        <span class="swipe-icon">👉</span>
+        <div>
+            <strong>Swipe Right:</strong> Quick actions (Pay, Skip, Update Amount)
+        </div>
+    </div>
+    <div class="swipe-action">
+        <span class="swipe-icon">👈</span>
+        <div>
+            <strong>Swipe Left:</strong> Edit, Delete, or access advanced options
+        </div>
+    </div>
+
+    <h3>Docking Bills</h3>
+    <p>"Docking" marks a bill as paid and advances recurring bills to their next due date:</p>
+    <ul>
+        <li><strong>One-time bills:</strong> Marked as paid and archived</li>
+        <li><strong>Recurring bills:</strong> Due date automatically advances</li>
+        <li><strong>Monthly bills:</strong> Same date next month</li>
+        <li><strong>Weekly bills:</strong> Same day next week</li>
+    </ul>
+
+    <h2>Advanced Features</h2>
+
+    <h3>Variable Bills</h3>
+    <p>For bills with changing amounts (credit cards, utilities):</p>
+    <div class="step">
+        <strong>Update Methods:</strong><br>
+        1. <strong>Inline Button:</strong> Tap the amount in bottom-left corner<br>
+        2. <strong>Swipe Actions:</strong> "Update Amount" then "Dock Full"<br>
+        3. <strong>Context Menu:</strong> Long-press → "Update Amount"
+    </div>
+
+    <h3>Payment Conflicts</h3>
+    <p>DueDock automatically detects when multiple bills are due on the same day and helps you prioritize:</p>
+    <ul>
+        <li>Red indicator shows conflict days</li>
+        <li>Tap to see which bills conflict</li>
+        <li>Adjust due dates or set up partial payments</li>
+    </ul>
+
+    <h3>Partial Payments & Installments</h3>
+    <div class="warning">
+        <strong>Important:</strong> Partial payments and installments require careful tracking to avoid missed payments.
+    </div>
+    <p><strong>Partial Payments:</strong> Pay part of a bill now, the rest later</p>
+    <p><strong>Installments:</strong> Break large bills into equal smaller payments</p>
+
+    <h2>Organization Features</h2>
+
+    <h3>Accounts</h3>
+    <p>Organize bills by financial source:</p>
+    <ul>
+        <li>Bank accounts (checking, savings)</li>
+        <li>Credit cards</li>
+        <li>Digital wallets</li>
+        <li>Categories (utilities, subscriptions, etc.)</li>
+    </ul>
+
+    <h3>Tags</h3>
+    <p>Use tags to group related bills:</p>
+    <ul>
+        <li><code>#home</code> - Mortgage, rent, utilities</li>
+        <li><code>#transport</code> - Car payment, insurance, gas</li>
+        <li><code>#subscriptions</code> - Netflix, Spotify, software</li>
+    </ul>
+
+    <h3>Savings Goals</h3>
+    <p>Track long-term savings targets separate from bills:</p>
+    <ul>
+        <li>Always visible on dashboard</li>
+        <li>Progress tracking with visual indicators</li>
+        <li>Target dates and contribution planning</li>
+    </ul>
+
+    <h2>Tools & Utilities</h2>
+
+    <h3>Calendar View</h3>
+    <p>Visual calendar shows all due dates and income sources:</p>
+    <ul>
+        <li>Color-coded by bill status</li>
+        <li>Tap any date for details</li>
+        <li>Month and year navigation</li>
+    </ul>
+
+    <h3>Backup & Export</h3>
+    <div class="highlight">
+        <strong>Two backup options available:</strong>
+    </div>
+    <p><strong>Autosave:</strong> Automatic backup to DueDockAutosave folder</p>
+    <ul>
+        <li>Automatic after changes</li>
+        <li>Deleted if app is uninstalled</li>
+        <li>Good for temporary recovery</li>
+    </ul>
+    
+    <p><strong>Export:</strong> Manual backup to chosen location</p>
+    <ul>
+        <li>Permanent backup</li>
+        <li>Store safely (Google Drive, Dropbox, etc.)</li>
+        <li>Essential for data preservation</li>
+    </ul>
+
+    <h3>Undo System</h3>
+    <p>DueDock includes comprehensive undo for most actions:</p>
+    <ul>
+        <li>Bill deletions (30-day window)</li>
+        <li>Docked bills</li>
+        <li>Amount changes</li>
+        <li>Account modifications</li>
+    </ul>
+
+    <h2>Troubleshooting</h2>
+
+    <h3>Common Issues</h3>
+    <div class="step">
+        <strong>Issue:</strong> "Can't delete Account"<br>
+        <strong>Solution:</strong> Re-assign or delete all bills first
+    </div>
+    
+    <div class="step">
+        <strong>Issue:</strong> "Bill not showing in Coverage Check"<br>
+        <strong>Solution:</strong> Check due date is after today and before next income
+    </div>
+    
+    <div class="step">
+        <strong>Issue:</strong> "Backup not working"<br>
+        <strong>Solution:</strong> Grant Files app access in Settings
+    </div>
+
+    <h3>Performance Tips</h3>
+    <ul>
+        <li>Keep bill list under 100 items for optimal performance</li>
+        <li>Use tags instead of many accounts for organization</li>
+        <li>Regularly archive paid bills older than 6 months</li>
+    </ul>
+
+    <h2>Best Practices</h2>
+
+    <div class="tip">
+        <strong>Daily Routine:</strong> Check Coverage Check each morning to see what's due today.
+    </div>
+    
+    <div class="tip">
+        <strong>Weekly Review:</strong> Use Planning Period to review the upcoming week.
+    </div>
+    
+    <div class="tip">
+        <strong>Monthly Planning:</strong> Set Planning Period to end of month for budget review.
+    </div>
+
+    <h2>Privacy & Security</h2>
+    
+    <p>DueDock is designed with privacy as the top priority:</p>
+    <ul>
+        <li><strong>100% Offline:</strong> No internet connection required</li>
+        <li><strong>Local Storage:</strong> All data stored on your device</li>
+        <li><strong>Private iCloud Sync:</strong> Encrypted sync to your personal iCloud</li>
+        <li><strong>No Analytics:</strong> No tracking or data collection</li>
+        <li><strong>No Bank Connections:</strong> Manual entry only</li>
+    </ul>
+
+    <div class="highlight">
+        <strong>Remember:</strong> Your financial data never leaves your device unless you explicitly export it.
+    </div>
+
+    <h2>Getting Help</h2>
+    
+    <p>For additional assistance:</p>
+    <ul>
+        <li>Check the <strong>Calculations Guide</strong> for financial formulas</li>
+        <li>Review <strong>Technical Documentation</strong> for developer details</li>
+        <li>Use the <strong>FAQ section</strong> in the app for quick answers</li>
+    </ul>
+
+    <div class="tip">
+        <strong>Happy Bill Management!</strong> DueDock is designed to make financial planning simple and stress-free.
+    </div>
+</body>
+</html>
