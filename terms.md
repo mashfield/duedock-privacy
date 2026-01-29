@@ -1,6 +1,6 @@
 # DueDock Terms of Use
 
-**Last Updated: January 17, 2026**
+**Last Updated: January 29, 2026**
 
 ## Acceptance of Terms
 

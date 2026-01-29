@@ -19,6 +19,13 @@ DueDock does not collect, store, or transmit any personal information or financi
 - **Local Encryption**: Data is encrypted using iOS standard encryption when your device is locked.
 - **No Network Transmission**: Since data never leaves your device, there's no risk of interception during transmission.
 
+## On-Device Feature Access
+
+DueDock requests specific permissions to enhance your local experience. These permissions are used exclusively on your device:
+- **Camera Access**: Used only to take photos of receipts for your personal records. Images are stored locally and never transmitted.
+- **Calendar Access**: Used only to cross-reference payment dates with regional holidays. We do not read your personal events or write to your calendar.
+- **Face ID / Biometrics**: Used locally to unlock the app if the "Privacy Lock" feature is enabled.
+
 ## Your Rights
 
 - **Full Control**: You have complete control over your data and can delete it at any time through the app.
@@ -36,4 +43,4 @@ If you have questions about this privacy policy or DueDock's data practices:
 
 If we update this privacy policy, we will post the new policy in the app and on our GitHub repository with an updated revision date.
 
-**Last Updated: January 15, 2026**
+**Last Updated: January 29, 2026**
