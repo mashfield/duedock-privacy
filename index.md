@@ -22,7 +22,7 @@ DueDock does not collect, store, or transmit any personal information or financi
 ## On-Device Feature Access
 
 DueDock requests specific permissions to enhance your local experience. These permissions are used exclusively on your device:
-- **Camera Access**: Used only to take photos of receipts for your personal records. Images are stored locally and never transmitted.
+- **Camera Access**: Used to scan bills for automatic data entry and to take photos of receipts for your personal records. All processing happens on-device; images are stored locally and never transmitted.
 - **Calendar Access**: Used only to cross-reference payment dates with regional holidays. We do not read your personal events or write to your calendar.
 - **Face ID / Biometrics**: Used locally to unlock the app if the "Privacy Lock" feature is enabled.
 
