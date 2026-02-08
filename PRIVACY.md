@@ -4,7 +4,7 @@ DueDock is committed to protecting your privacy and ensuring the security of you
 
 ## Information We Collect
 
-DueDock does not collect, store, or transmit any personal information or financial data.
+DueDock does not collect, store, or transmit your financial data, bill information, or payment records. Your bills, income, and payment history remain exclusively on your device.
 
 ## Data Storage and Usage
 
@@ -18,6 +18,21 @@ DueDock does not collect, store, or transmit any personal information or financi
 - **Device-Level Security**: Your data is protected by your device's built-in security features (Face ID, Touch ID, passcode).
 - **Local Encryption**: Data is encrypted using iOS standard encryption when your device is locked.
 - **No Network Transmission**: Since data never leaves your device, there's no risk of interception during transmission.
+
+## On-Device Feature Access
+
+DueDock requests specific permissions to enhance your local experience. These permissions are used exclusively on your device:
+- **Camera Access**: Used to scan bills for automatic data entry and to take photos of receipts for your personal records. All processing happens on-device; images are stored locally and never transmitted.
+- **Calendar Access**: Used only to cross-reference payment dates with regional holidays. We do not read your personal events or write to your calendar.
+- **Face ID / Biometrics**: Used locally to access Payment History if the "Privacy Lock" feature is enabled (Premium feature only).
+
+## Apple-Managed Services
+
+Certain features are handled entirely by Apple and are subject to [Apple's Privacy Policy](https://www.apple.com/privacy/):
+
+- **App Store Subscriptions**: If you purchase a premium subscription, the transaction is processed and managed entirely by Apple. DueDock does not receive or store your payment details.
+- **Crash Reports**: If you have opted in to share diagnostics with app developers through your device settings, Apple may provide us with anonymized crash reports to help improve app stability. These reports contain no personal or financial data.
+- **Support Email**: If you contact us via email, we will receive your email address and any information you choose to share. We do not use this for marketing or share it with third parties.
 
 ## Your Rights
 
@@ -36,4 +51,4 @@ If you have questions about this privacy policy or DueDock's data practices:
 
 If we update this privacy policy, we will post the new policy in the app and on our GitHub repository with an updated revision date.
 
-**Last Updated: January 15, 2026**
+**Last Updated: February 8, 2026**
