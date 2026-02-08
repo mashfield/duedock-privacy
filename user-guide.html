@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Guide</title>
+    <title>DueDock User Guide</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -16,27 +16,545 @@
         h1 { color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 10px; }
         h2 { color: #5f6368; margin-top: 30px; }
         h3 { color: #80868b; margin-top: 25px; }
-        h4 { color: #9aa0a6; margin-top: 20px; }
-        code { background-color: #f1f3f4; padding: 2px 6px; border-radius: 4px; font-family: 'SF Mono', Monaco, monospace; }
-        pre { 
-            background-color: #f8f9fa; 
-            padding: 15px; 
-            border-radius: 8px; 
-            overflow-x: auto;
-            font-family: 'SF Mono', Monaco, monospace;
-        }
-        blockquote { 
-            border-left: 4px solid #1a73e8; 
-            padding-left: 15px; 
-            margin: 20px 0; 
-            color: #5f6368; 
-        }
-        ul { margin: 15px 0; }
+        code { background-color: #f1f3f4; padding: 2px 6px; border-radius: 4px; }
+        blockquote { border-left: 4px solid #1a73e8; padding-left: 15px; margin: 20px 0; color: #5f6368; }
+        ul, ol { margin: 15px 0; }
         li { margin: 5px 0; }
         strong { color: #1a73e8; }
+        hr { border: none; border-top: 1px solid #dadce0; margin: 30px 0; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-<h1>DueDock User Guide</h1><p><em>Your personal financial planning companion that helps you track bills and income</em></p><p>---</p><h2>What is DueDock?</h2><p>DueDock is a simple app that helps you see exactly which bills are due and when they're due. It shows you your upcoming bills and income so you can plan ahead and avoid missing payments.</p><p><strong>The main goal</strong>: Help you organize your bills and income in one place.</p><p>---</p><h2>Core Concepts</h2><h3>📅 Forward-Looking Planning</h3><br>DueDock focuses on what's coming next. It shows you:</p><p>- <strong>When your next paycheck arrives</strong><br>- <strong>Which bills are due before then</strong><br>- <strong>How much those bills total</strong></p><h3>🎯 The Coverage Check</h3><br>This is DueDock's main feature. The Coverage Check shows you:</p><p>- <strong>Total amount of bills due before your next income</strong><br>- <strong>Your next income amount and when you'll receive it</strong></p><p>The Coverage Check displays two key numbers:<br>1. Total bills due: $X<br>2. Next income: $Y on [date]</p><p>You can use the plus/minus buttons to look ahead at future periods.</p><h3>💡 Planning Period</h3><br>Use the Coverage Check to plan ahead:<br>- See this pay period's bills<br>- Advance to see the next pay period<br>- Plan for multiple pay periods in advance</p><p>---</p><h2>Main Features</h2><h3>📊 Dashboard View</h3><br>Your main screen shows:</p><p><strong>Coverage Check</strong><br>- "Total due before income": Shows the sum of all bills due<br>- "Based on your next scheduled income of $X on [date]"<br>- Plus/minus buttons to change the time period</p><p><strong>Bills Section</strong> <br>- All bills due in your selected period<br>- Organized by account (bank, credit cards, etc.)<br>- Shows which need attention</p><p><strong>Income Information</strong><br>- Shown in the Coverage Check caption<br>- Tap the income amount to see all income sources<br>- Shows when you'll get paid</p><h3>🔍 Bill Management</h3><br>Manage bills directly from the dashboard using swipe gestures:</p><p><strong>Swipe Right on a bill</strong>:<br>- <strong>Dock Full</strong> (Red): Pay the full remaining amount<br>- <strong>Dock Full with Proof</strong> (Red): Pay full amount + attach receipt/confirmation<br>- <strong>Custom</strong> (Orange): Pay a custom amount<br>- <strong>Dock Custom with Proof</strong> (Orange): Pay custom amount + attach receipt/confirmation</p><p><strong>Swipe Left on a bill</strong>:<br>- <strong>Edit</strong> (Blue): Update bill details<br>- <strong>Delete</strong> (Red): Remove the bill</p><p><strong>Bill Status</strong>:<br>- Overdue bills are highlighted in <strong>Red</strong><br>- Regular bills show in standard text color</p><h3>💳 Installment Payments</h3><br>For big bills you can't pay all at once:</p><p>- Set up automatic partial payments<br>- Track progress toward full payment<br>- See exactly how much is still owed<br>- Installments are included in coverage calculations</p><h3>🎯 Savings Goals (Premium)</h3><br>Set targets and track progress:</p><p>- Vacation fund, emergency fund, etc.<br>- Visual progress bar shows how close you are<br>- See exactly how much more you need<br>- <em>Premium feature - requires upgrade</em></p><h3>🏷️ Bill Tagging (Premium)</h3><br>Organize bills with custom tags:</p><p>- Create tags like "Urgent", "Quarterly", "Business"<br>- Filter dashboard by tags to focus on specific bills<br>- Color-coded tags for visual organization<br>- <em>Premium feature - requires upgrade</em></p><h3>📸 Proof of Payment</h3><br>Keep records of your payments:</p><p>- Attach photos of receipts or confirmation screens<br>- Store confirmation numbers for digital payments<br>- Access proof history for reference or disputes<br>- Integrated with payment flow for automatic capture</p><h3>🔒 Privacy Lock</h3><br>Protect your sensitive financial information:</p><p>- Secures access to <strong>payment history and proof records</strong><br>- Requires authentication to view past payments<br>- Keeps financial history private while allowing app access<br>- Protects sensitive data if someone borrows your phone</p><h3>💾 Backup & Restore</h3><br>Never lose your financial data:</p><p>- Export complete backup to single file<br>- Includes bills, payments, logos, and settings<br>- Restore seamlessly when switching devices<br>- Manual and automatic backup options</p><h3>🎨 Biller Logos</h3><br>Visual identification for your bills:</p><p>- Automatically fetches company logos from websites<br>- Makes bills easy to recognize at a glance<br>- Included in backup/restore files<br>- Fallback to colored circles if logo unavailable</p><h3>🏦 Account Management</h3><br>Organize bills by where you pay them:</p><p>- Bank accounts<br>- Credit cards  <br>- Other payment methods<br>- See total spending per account</p><p>---</p><h2>🌟 Premium Features</h2><p>DueDock offers a free tier with essential features, plus premium upgrades for advanced functionality:</p><h3>📊 Free Tier (Always Free)</h3><br>- <strong>10 bills</strong> maximum<br>- <strong>1 account</strong> maximum<br>- Core Coverage Check and planning<br>- Basic bill management<br>- Payment tracking</p><h3>💎 Premium Upgrade</h3><br>Unlock everything:<br>- <strong>Unlimited bills and accounts</strong><br>- <strong>Savings Goals</strong> - track multiple targets<br>- <strong>Bill Tagging</strong> - organize and filter bills<br>- <strong>Payment History</strong> - complete record with proof<br>- <strong>Installments</strong> - split large payments<br>- <strong>Privacy Lock</strong> - protect financial history<br>- <strong>Advanced Backup</strong> - complete data protection</p><h3>🚀 How to Upgrade</h3><br>- Tap any premium feature lock icon<br>- Access through Settings → Upgrade<br>- One-time lifetime purchase or subscription options<br>- 7-day free trial for subscriptions</p><p>---</p><h2>How It Works</h2><h3>1. Setup (One Time)</h3><br>Add your information:<br>- Your income sources and pay dates<br>- All your regular bills with amounts and due dates<br>- Your bank accounts/credit cards</p><h3>2. Daily Use</h3><br><strong>Check the Dashboard</strong><br>- See what's coming up<br>- Check your Coverage Check totals<br>- Pay any bills that are due</p><p><strong>Use Bill Management</strong><br>- Swipe to pay bills quickly<br>- See which bills need attention first</p><h3>3. Planning Ahead</h3><br><strong>Use the Coverage Check</strong><br>- Look at this pay period's bills<br>- Use plus button to see future periods<br>- Plan for big expenses</p><p>---</p><h2>Smart Features</h2><h3>🤖 Automatic Calculations</h3><br>DueDock does all the math for you:<br>- Figures out which bills are due when<br>- Calculates totals automatically<br>- Updates as you pay bills</p><h3>📱 Same-Day Conflicts</h3><br>Sometimes bills are due on the same day as your income. DueDock shows these as conflicts because sometimes pre-authorized payments require funds to be in your account <strong>the day before</strong> the payment is actually withdrawn.</p><p>This creates uncertainty: if you pay a bill on the same day you receive income, the payment might not clear in time for the withdrawal.</p><p>DueDock shows these as conflicts and lets you decide which to include in totals. Use a toggle to include pre-authorized payments when you're confident the timing will work.</p><h3>🔄 Variable Bills</h3><br>Some bills change each month (like credit cards):<br>- Mark bills as "variable"<br>- Enter actual amount when you get the bill<br>- DueDock uses the real amount for calculations</p><h3>💰 Payment History</h3><br>Track all your payments:<br>- Records when you paid each bill<br>- Shows payment progress<br>- Stores proof of payment if needed</p><p>---</p><h2>Getting Started</h2><h3>Week 1: Setup</h3><br>1. Add all your income sources<br>2. Enter every bill you pay<br>3. Set up your accounts<br>4. Check your first Coverage Check</p><h3>Week 2: Build Habits</h3><br>1. Check the dashboard daily<br>2. Pay bills using swipe gestures<br>3. Watch your Coverage Check totals</p><h3>Week 3: Plan Ahead</h3><br>1. Use the plus button to see future periods<br>2. Plan for upcoming expenses<br>3. Set up savings goals</p><h3>Ongoing: Stay on Track</h3><br>1. Check Coverage Check before big purchases<br>2. Update variable bills when you get them<br>3. Keep your payment records up to date</p><p>---</p><h2>⚙️ Settings & Configuration</h2><p>Access Settings to customize DueDock:</p><h3>🔐 Security</h3><br>- <strong>Privacy Lock</strong>: Protect payment history with authentication<br>- <strong>Biometric Options</strong>: Face ID or Touch ID support</p><h3>🎨 Appearance</h3><br>- <strong>Theme</strong>: Light, Dark, or System settings<br>- <strong>Accent Color</strong>: Customize app appearance</p><h3>🔔 Notifications</h3><br>- <strong>Payment Reminders</strong>: Get alerts before bills are due<br>- <strong>Timing</strong>: Choose when to receive notifications</p><h3>📊 Data Management</h3><br>- <strong>Backup</strong>: Create manual backups or enable auto-save<br>- <strong>Restore</strong>: Import data from backup files<br>- <strong>Export</strong>: Save data for external use</p><h3>📄 Legal</h3><br>- <strong>Privacy Policy</strong>: How your data is protected<br>- <strong>Terms of Use</strong>: App usage terms and conditions</p><p>---</p><h2>Tips for Success</h2><h3>🎯 Use the Coverage Check</h3><br>The Coverage Check helps you see the big picture. Use it to plan ahead for expenses.</p><h3>📊 Check Multiple Periods</h3><br>Use the plus button to look ahead at future pay periods for better planning.</p><h3>💡 Use Installments Wisely</h3><br>Installments are great for big bills, but remember they're still commitments.</p><h3>🔄 Keep It Updated</h3><br>The more accurate your information, the more helpful DueDock will be.</p><p>---</p><h2>Common Questions</h2><p><strong>Q: How is DueDock different from other budget apps?</strong><br>A: DueDock focuses on upcoming bills and income rather than tracking past spending. It's designed to help you plan ahead.</p><p><strong>Q: What if I have irregular income?</strong><br>A: DueDock handles different pay frequencies (weekly, bi-weekly, monthly). Just enter when you expect to get paid.</p><p><strong>Q: Is my financial information secure?</strong><br>A: Yes! DueDock stores everything on your device only. No cloud storage, no data sharing, complete privacy.</p><p><strong>Q: Can I use DueDock for business expenses?</strong><br>A: DueDock is designed for personal finances, but many users track small business expenses alongside personal ones.</p><p><strong>Q: What if I miss a bill?</strong><br>A: DueDock will show it in red as overdue. You can still mark it as paid and the app will update your calculations.</p><p>---</p><h2>Getting Help</h2><p>If you have questions or need help:<br>- Check the Help Center in the app<br>- Look for tips that appear as you use features<br>- Remember: The Coverage Check shows you the facts - you decide what to do with them</p><p>---</p><h2>The DueDock Philosophy</h2><p><strong>Financial organization shouldn't be complicated.</strong></p><p>DueDock believes that:<br>- Seeing your bills and income together helps you make better decisions<br>- Planning ahead reduces financial stress<br>- Simple tools work better than complex ones<br>- Your financial data should be private and secure</p><p>The app is designed to be:<br>- <strong>Simple</strong>: No confusing features you'll never use<br>- <strong>Visual</strong>: See your financial picture at a glance<br>- <strong>Actionable</strong>: Clear information, no guesswork<br>- <strong>Private</strong>: Your data stays on your device</p><p>---</p><p><strong>Welcome to DueDock! Here's to organizing your finances and planning with confidence.</strong></p><p><br><em>Last Updated: January 2026</em><br></p>
+<h1>DueDock User Guide</h1>
+
+<p><em>Your personal financial planning companion that helps you track bills and income</em></p>
+
+<hr>
+
+<h2>What is DueDock?</h2>
+
+<p>DueDock is a simple app that helps you see exactly which bills are due and when they're due. It shows you your upcoming bills and income so you can plan ahead and avoid missing payments.</p>
+
+<p><strong>The main goal</strong>: Help you organize your bills and income in one place.</p>
+
+<hr>
+
+<h2>Core Concepts</h2>
+
+<h3>📅 Forward-Looking Planning</h3>
+<p>DueDock focuses on what's coming next. It shows you:</p>
+
+<ul>
+<li><strong>When your next paycheck arrives</strong></li>
+<li><strong>Which bills are due before then</strong></li>
+<li><strong>How much those bills total</strong></li>
+</ul>
+
+<h3>🎯 The Coverage Check</h3>
+<p>This is DueDock's main feature. The Coverage Check shows you:</p>
+
+<ul>
+<li><strong>Total amount of bills due before your next income</strong></li>
+<li><strong>Your next income amount and when you'll receive it</strong></li>
+</ul>
+
+<p>The Coverage Check displays two key numbers:</p>
+<ol>
+<li>Total bills due: $X</li>
+<li>Next income: $Y on [date]</li>
+</ol>
+
+<p>You can use the plus/minus buttons to look ahead at future periods.</p>
+
+<h3>💡 Planning Period</h3>
+<p>Use the Coverage Check to plan ahead:</p>
+<ul>
+<li>See this pay period's bills</li>
+<li>Advance to see the next pay period</li>
+<li>Plan for multiple pay periods in advance</li>
+</ul>
+
+<hr>
+
+<h2>Main Features</h2>
+
+<h3>📊 Dashboard View</h3>
+<p>Your main screen shows:</p>
+
+<p><strong>Coverage Check</strong></p>
+<ul>
+<li>"Total due before income": Shows the sum of all bills due</li>
+<li>"Based on your next scheduled income of $X on [date]"</li>
+<li>Plus/minus buttons to change the time period</li>
+</ul>
+
+<p><strong>Bills Section</strong></p>
+<ul>
+<li>All bills due in your selected period</li>
+<li>Organized by account (bank, credit cards, etc.)</li>
+<li>Shows which need attention</li>
+</ul>
+
+<p><strong>Income Information</strong></p>
+<ul>
+<li>Shown in the Coverage Check caption</li>
+<li>Tap the income amount to see all income sources</li>
+<li>Shows when you'll get paid</li>
+</ul>
+
+<p><strong>Info Buttons</strong></p>
+<ul>
+<li>Blue info icons appear next to section headers</li>
+<li>Tap them for quick tips about each feature</li>
+<li>Toggle them on or off in Settings</li>
+</ul>
+
+<h3>🔍 Bill Management</h3>
+<p>Manage bills directly from the dashboard using swipe gestures:</p>
+
+<p><strong>Swipe Right on a bill</strong>:</p>
+<ul>
+<li><strong>Dock Full</strong> (Red): Pay the full remaining amount</li>
+<li><strong>Dock Full with Proof</strong> (Red): Pay full amount + attach receipt/confirmation</li>
+<li><strong>Custom</strong> (Orange): Pay a custom amount</li>
+<li><strong>Dock Custom with Proof</strong> (Orange): Pay custom amount + attach receipt/confirmation</li>
+</ul>
+
+<p><strong>Swipe Left on a bill</strong>:</p>
+<ul>
+<li><strong>Edit</strong> (Blue): Update bill details</li>
+<li><strong>Delete</strong> (Red): Remove the bill</li>
+</ul>
+
+<p><strong>Bill Status</strong>:</p>
+<ul>
+<li>Overdue bills are highlighted in <strong>Red</strong> with visual indicators (sidebar, badge, pulsing amount)</li>
+<li>Regular bills show in standard text color</li>
+</ul>
+
+<p><strong>Long-Press Context Menu</strong>:</p>
+<ul>
+<li>Change account assignment</li>
+<li>Duplicate a bill</li>
+<li>Quick access to edit and delete</li>
+</ul>
+
+<h3>� Bill Scanner (Premium)</h3>
+<p>Quickly add bills using your camera:</p>
+
+<ul>
+<li>Point your camera at a bill or statement</li>
+<li>DueDock automatically extracts the company name, amount, and due date</li>
+<li>Review and confirm the detected information</li>
+<li><em>Premium feature - requires upgrade</em></li>
+</ul>
+
+<h3>📅 Calendar View</h3>
+<p>See your bills on a calendar:</p>
+
+<ul>
+<li>Visual overview of when bills are due</li>
+<li>Tap any date to see bills due that day</li>
+<li>Installment payments shown alongside regular bills</li>
+<li>Access from the calendar button on the dashboard</li>
+</ul>
+
+<h3>�💳 Installment Payments</h3>
+<p>For big bills you can't pay all at once:</p>
+
+<ul>
+<li>Set up automatic partial payments</li>
+<li>Track progress toward full payment</li>
+<li>See exactly how much is still owed</li>
+<li>Installments are included in coverage calculations</li>
+</ul>
+
+<h3>🎯 Savings Goals (Premium)</h3>
+<p>Set targets and track progress:</p>
+
+<ul>
+<li>Vacation fund, emergency fund, etc.</li>
+<li>Visual progress bar shows how close you are</li>
+<li>Contribute directly from the dashboard</li>
+<li>Long-press for quick actions: contribute, duplicate, reset, or delete</li>
+<li><em>Premium feature - requires upgrade</em></li>
+</ul>
+
+<h3>🏷️ Bill Tagging (Premium)</h3>
+<p>Organize bills with custom tags:</p>
+
+<ul>
+<li>Create tags like "Urgent", "Quarterly", "Business"</li>
+<li>Filter dashboard by tags to focus on specific bills</li>
+<li>Color-coded tags for visual organization</li>
+<li><em>Premium feature - requires upgrade</em></li>
+</ul>
+
+<h3>📸 Proof of Payment</h3>
+<p>Keep records of your payments:</p>
+
+<ul>
+<li>Attach photos of receipts or confirmation screens</li>
+<li>Store confirmation numbers for digital payments</li>
+<li>Access proof history for reference or disputes</li>
+<li>Integrated with payment flow for automatic capture</li>
+</ul>
+
+<h3>🔒 Privacy Lock (Premium)</h3>
+<p>Protect your sensitive financial information:</p>
+
+<ul>
+<li>Secures access to <strong>payment history and proof records</strong></li>
+<li>Requires Face ID or Touch ID to view past payments</li>
+<li>Keeps financial history private while allowing app access</li>
+<li>Protects sensitive data if someone borrows your phone</li>
+<li><em>Premium feature - requires upgrade</em></li>
+</ul>
+
+<h3>↩️ Undo & Redo</h3>
+<p>Made a mistake? No problem:</p>
+
+<ul>
+<li>Undo payments, account changes, and deletions</li>
+<li>Redo to reapply an undone action</li>
+<li>Available on the dashboard and in Manage views</li>
+<li>Works with bills, savings goals, and account assignments</li>
+</ul>
+
+<h3>💾 Backup & Restore</h3>
+<p>Never lose your financial data:</p>
+
+<ul>
+<li>Export complete backup to a single file</li>
+<li>Includes bills, payments, logos, tags, and settings</li>
+<li>Restore seamlessly when switching devices</li>
+<li>Manual backup and automatic autosave options</li>
+<li>Autosave Manager lets you browse, restore, or clean up autosave files</li>
+</ul>
+
+<h3>🎨 Biller Logos</h3>
+<p>Visual identification for your bills:</p>
+
+<ul>
+<li>Automatically fetches company logos from biller websites</li>
+<li>Add a website URL to your bill and the logo appears automatically</li>
+<li>Makes bills easy to recognize at a glance</li>
+<li>Included in backup/restore files</li>
+</ul>
+
+<h3>🏦 Account Management</h3>
+<p>Organize bills by where you pay them:</p>
+
+<ul>
+<li>Bank accounts, credit cards, and other payment methods</li>
+<li>Create new accounts directly from the bill form</li>
+<li>See total spending per account on the dashboard</li>
+<li>Assign and reassign bills to accounts easily</li>
+</ul>
+
+<hr>
+
+<h2>🌟 Premium Features</h2>
+
+<p>DueDock offers a free tier with essential features, plus premium upgrades for advanced functionality:</p>
+
+<h3>📊 Free Tier (Always Free)</h3>
+<ul>
+<li><strong>10 bills</strong> maximum</li>
+<li><strong>1 account</strong> maximum</li>
+<li>Core Coverage Check and planning</li>
+<li>Basic bill management and swipe gestures</li>
+<li>Calendar view</li>
+<li>Undo/Redo</li>
+</ul>
+
+<h3>💎 Premium Upgrade</h3>
+<p>Unlock everything:</p>
+<ul>
+<li><strong>Unlimited bills and accounts</strong></li>
+<li><strong>Savings Goals</strong> - track multiple targets</li>
+<li><strong>Bill Tagging</strong> - organize and filter bills</li>
+<li><strong>Bill Scanner</strong> - add bills with your camera</li>
+<li><strong>Payment History</strong> - complete record with proof</li>
+<li><strong>Installments</strong> - split large payments</li>
+<li><strong>Privacy Lock</strong> - protect financial history</li>
+<li><strong>Advanced Backup</strong> - complete data protection</li>
+</ul>
+
+<h3>🚀 How to Upgrade</h3>
+<ul>
+<li>Tap any premium feature lock icon</li>
+<li>Access through Settings → Upgrade</li>
+<li>Subscription options with 7-day free trial</li>
+</ul>
+
+<hr>
+
+<h2>How It Works</h2>
+
+<h3>1. Setup (One Time)</h3>
+<p>Add your information:</p>
+<ul>
+<li>Your income sources and pay dates</li>
+<li>All your regular bills with amounts and due dates</li>
+<li>Your bank accounts/credit cards</li>
+</ul>
+
+<h3>2. First Launch Experience</h3>
+<p>DueDock guides you through getting started:</p>
+<ul>
+<li>A short onboarding walkthrough introduces the app</li>
+<li>Contextual tips appear as you explore each feature for the first time</li>
+<li>Tips cover the Coverage Check, Calendar, Settings, and Manage views</li>
+<li>Each tip appears only once per feature</li>
+</ul>
+
+<h3>3. Daily Use</h3>
+<p><strong>Check the Dashboard</strong></p>
+<ul>
+<li>See what's coming up</li>
+<li>Check your Coverage Check totals</li>
+<li>Pay any bills that are due</li>
+</ul>
+
+<p><strong>Use Bill Management</strong></p>
+<ul>
+<li>Swipe to pay bills quickly</li>
+<li>Long-press for more options</li>
+<li>See which bills need attention first</li>
+</ul>
+
+<h3>4. Planning Ahead</h3>
+<p><strong>Use the Coverage Check</strong></p>
+<ul>
+<li>Look at this pay period's bills</li>
+<li>Use plus button to see future periods</li>
+<li>Plan for big expenses</li>
+</ul>
+
+<hr>
+
+<h2>Smart Features</h2>
+
+<h3>🤖 Automatic Calculations</h3>
+<p>DueDock does all the math for you:</p>
+<ul>
+<li>Figures out which bills are due when</li>
+<li>Calculates totals automatically</li>
+<li>Updates as you pay bills</li>
+</ul>
+
+<h3>📱 Same-Day Conflicts</h3>
+<p>Sometimes bills are due on the same day as your income. DueDock shows these as conflicts because sometimes pre-authorized payments require funds to be in your account <strong>the day before</strong> the payment is actually withdrawn.</p>
+
+<p>This creates uncertainty: if you pay a bill on the same day you receive income, the payment might not clear in time for the withdrawal.</p>
+
+<p>DueDock shows these as conflicts and lets you decide which to include in totals. Use a toggle to include pre-authorized payments when you're confident the timing will work.</p>
+
+<h3>🔄 Variable Bills</h3>
+<p>Some bills change each month (like credit cards):</p>
+<ul>
+<li>Mark bills as "variable"</li>
+<li>Enter actual amount when you get the bill</li>
+<li>DueDock uses the real amount for calculations</li>
+</ul>
+
+<h3>💰 Payment History</h3>
+<p>Track all your payments:</p>
+<ul>
+<li>Records when you paid each bill</li>
+<li>Shows payment progress</li>
+<li>Stores proof of payment if needed</li>
+</ul>
+
+<h3>🧪 Demo Mode</h3>
+<p>Try DueDock with sample data:</p>
+<ul>
+<li>Access from the About section on the dashboard</li>
+<li>Loads realistic sample bills, incomes, accounts, and goals</li>
+<li>Explore all features without entering your own data</li>
+<li>Exit Demo Mode to return to your real data</li>
+</ul>
+
+<hr>
+
+<h2>Getting Started</h2>
+
+<h3>Week 1: Setup</h3>
+<ol>
+<li>Add all your income sources</li>
+<li>Enter every bill you pay (or scan them with the Bill Scanner)</li>
+<li>Set up your accounts</li>
+<li>Check your first Coverage Check</li>
+</ol>
+
+<h3>Week 2: Build Habits</h3>
+<ol>
+<li>Check the dashboard daily</li>
+<li>Pay bills using swipe gestures</li>
+<li>Watch your Coverage Check totals</li>
+<li>Explore the Calendar view</li>
+</ol>
+
+<h3>Week 3: Plan Ahead</h3>
+<ol>
+<li>Use the plus button to see future periods</li>
+<li>Plan for upcoming expenses</li>
+<li>Set up savings goals</li>
+</ol>
+
+<h3>Ongoing: Stay on Track</h3>
+<ol>
+<li>Check Coverage Check before big purchases</li>
+<li>Update variable bills when you get them</li>
+<li>Keep your payment records up to date</li>
+</ol>
+
+<hr>
+
+<h2>⚙️ Settings & Configuration</h2>
+
+<p>Access Settings to customize DueDock:</p>
+
+<h3>🔐 Security</h3>
+<ul>
+<li><strong>Privacy Lock</strong>: Protect payment history with authentication (Premium)</li>
+<li><strong>Biometric Options</strong>: Face ID or Touch ID support</li>
+</ul>
+
+<h3>🎨 Appearance</h3>
+<ul>
+<li><strong>Theme</strong>: Light, Dark, or System settings</li>
+</ul>
+
+<h3>🔔 Notifications</h3>
+<ul>
+<li><strong>Payment Reminders</strong>: Get alerts before bills are due</li>
+<li><strong>Timing</strong>: Choose when to receive notifications</li>
+</ul>
+
+<h3>ℹ️ Info Buttons</h3>
+<ul>
+<li><strong>Show Info Buttons</strong>: Toggle the blue info icons on or off</li>
+<li>Useful for new users learning the app</li>
+</ul>
+
+<h3>📊 Data Management</h3>
+<ul>
+<li><strong>Backup</strong>: Create manual backups</li>
+<li><strong>Autosave</strong>: Automatic backups happen in the background</li>
+<li><strong>Autosave Manager</strong>: Browse, restore, or delete autosave files</li>
+<li><strong>Restore</strong>: Import data from backup files</li>
+</ul>
+
+<h3>📄 Legal</h3>
+<ul>
+<li><strong>Privacy Policy</strong>: How your data is protected</li>
+<li><strong>Terms of Use</strong>: App usage terms and conditions</li>
+</ul>
+
+<hr>
+
+<h2>In-App Help</h2>
+
+<h3>📖 Help Centre</h3>
+<p>Access the Help Centre from the dashboard for detailed guidance:</p>
+
+<ul>
+<li><strong>Use Cases</strong>: Real-world scenarios showing how different people use DueDock (freelancers, families, students, and more)</li>
+<li><strong>FAQs</strong>: Answers to common questions about features and functionality</li>
+<li><strong>Tutorial</strong>: Step-by-step guide covering core concepts, adding data, and using tools</li>
+</ul>
+
+<h3>💡 Contextual Tips</h3>
+<p>Tips appear automatically as you use the app:</p>
+<ul>
+<li>One-time tips guide you through key features</li>
+<li>Info buttons provide persistent access to feature explanations</li>
+<li>Tips cover the Coverage Check, Calendar, Settings, and more</li>
+</ul>
+
+<hr>
+
+<h2>Tips for Success</h2>
+
+<h3>🎯 Use the Coverage Check</h3>
+<p>The Coverage Check helps you see the big picture. Use it to plan ahead for expenses.</p>
+
+<h3>📊 Check Multiple Periods</h3>
+<p>Use the plus button to look ahead at future pay periods for better planning.</p>
+
+<h3>💡 Use Installments Wisely</h3>
+<p>Installments are great for big bills, but remember they're still commitments.</p>
+
+<h3>🔄 Keep It Updated</h3>
+<p>The more accurate your information, the more helpful DueDock will be.</p>
+
+<hr>
+
+<h2>Common Questions</h2>
+
+<p><strong>Q: How is DueDock different from other budget apps?</strong></p>
+<p>A: DueDock focuses on upcoming bills and income rather than tracking past spending. It's designed to help you plan ahead.</p>
+
+<p><strong>Q: What if I have irregular income?</strong></p>
+<p>A: DueDock handles different pay frequencies (weekly, bi-weekly, monthly, and more). Just enter when you expect to get paid.</p>
+
+<p><strong>Q: Is my financial information secure?</strong></p>
+<p>A: Yes! DueDock stores everything on your device only. No cloud storage, no data sharing, complete privacy.</p>
+
+<p><strong>Q: Can I use DueDock for business expenses?</strong></p>
+<p>A: DueDock is designed for personal finances, but many users track small business expenses alongside personal ones.</p>
+
+<p><strong>Q: What if I miss a bill?</strong></p>
+<p>A: DueDock will show it in red as overdue with prominent visual indicators. You can still mark it as paid and the app will update your calculations.</p>
+
+<p><strong>Q: How do I try the app before entering my data?</strong></p>
+<p>A: Use Demo Mode from the About section on the dashboard. It loads sample data so you can explore all features risk-free.</p>
+
+<hr>
+
+<h2>Getting Help</h2>
+
+<p>If you have questions or need help:</p>
+<ul>
+<li>Check the <strong>Help Centre</strong> in the app (accessible from the dashboard)</li>
+<li>Browse <strong>Use Cases</strong> to see how others use DueDock</li>
+<li>Read the <strong>Tutorial</strong> for step-by-step guidance</li>
+<li>Tap <strong>info buttons</strong> next to section headers for quick tips</li>
+<li>Visit the <strong>User Guide</strong> online at <a href="https://mashfield.github.io/duedock-privacy/user-guide">mashfield.github.io</a></li>
+</ul>
+
+<hr>
+
+<h2>The DueDock Philosophy</h2>
+
+<p><strong>Financial organization shouldn't be complicated.</strong></p>
+
+<p>DueDock believes that:</p>
+<ul>
+<li>Seeing your bills and income together helps you make better decisions</li>
+<li>Planning ahead reduces financial stress</li>
+<li>Simple tools work better than complex ones</li>
+<li>Your financial data should be private and secure</li>
+</ul>
+
+<p>The app is designed to be:</p>
+<ul>
+<li><strong>Simple</strong>: No confusing features you'll never use</li>
+<li><strong>Visual</strong>: See your financial picture at a glance</li>
+<li><strong>Actionable</strong>: Clear information, no guesswork</li>
+<li><strong>Private</strong>: Your data stays on your device</li>
+</ul>
+
+<hr>
+
+<p><strong>Welcome to DueDock! Here's to organizing your finances and planning with confidence.</strong></p>
+
+
+<p><em>Last Updated: February 2026</em></p>
+
 </body>
 </html>
