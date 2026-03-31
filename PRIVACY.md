@@ -26,6 +26,13 @@ DueDock requests specific permissions to enhance your local experience. These pe
 - **Calendar Access**: Used only to cross-reference payment dates with regional holidays. We do not read your personal events or write to your calendar.
 - **Face ID / Biometrics**: Used locally to access Payment History if the "Privacy Lock" feature is enabled (Premium feature only).
 
+## App Updates & Connectivity
+
+- **Offline-by-Default**: DueDock is designed to function entirely without an internet connection. No financial data ever leaves your device.
+- **Optional Version Checks**: You can optionally enable automatic update checks in **Settings → Connectivity & Privacy**. 
+- **Privacy-First Connectivity**: If enabled, the app periodically downloads a small "version.json" file from `duedock.app`. No personal information, financial data, or device identifiers are ever transmitted during this check. This only serves to notify you of critical security patches and new features.
+- **Opt-Out Anytime**: You can disable all network connectivity at any time, returning the app to a 100% offline state.
+
 ## Apple-Managed Services
 
 Certain features are handled entirely by Apple and are subject to [Apple's Privacy Policy](https://www.apple.com/privacy/):
@@ -51,4 +58,4 @@ If you have questions about this privacy policy or DueDock's data practices:
 
 If we update this privacy policy, we will post the new policy in the app and on our GitHub repository with an updated revision date.
 
-**Last Updated: February 8, 2026**
+**Last Updated: March 31, 2026**
