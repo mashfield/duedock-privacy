@@ -8,10 +8,17 @@ DueDock does not collect, store, or transmit your financial data, bill informati
 
 ## Data Storage and Usage
 
-- **Local Storage Only**: All your financial data (bills, income, payment history) is stored locally on your device using Apple's secure storage frameworks.
-- **No Cloud Services**: DueDock does not use cloud storage, analytics, or third-party data services.
-- **No Tracking**: We do not use analytics, tracking pixels, or any form of user monitoring.
-- **No Data Sharing**: Your data never leaves your device and is never shared with third parties.
+- **Private-First Storage**: Your financial data (bills, income,
+  payment history) is stored on your device and can be securely 
+  synced across your Apple devices using your private iCloud account.
+- **iCloud Sync (CloudKit)**: DueDock uses Apple's CloudKit to keep
+  your data in sync between your iPhone, iPad, and Mac. This sync 
+  happens entirely within your private, encrypted Apple ecosystem.
+- **No Developer Access**: We (the developers) do not have a central
+  database. We cannot see, collect, or sell your financial data. 
+  It belongs to you and stays within your private iCloud account.
+- **No Third-Party Tracking**: We do not use analytics, tracking 
+  pixels, or any third-party data services.
 
 ## Data Security
 
