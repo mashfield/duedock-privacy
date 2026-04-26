@@ -1,6 +1,6 @@
 # DueDock Terms of Use
 
-**Last Updated: January 29, 2026**
+**Last Updated: April 12, 2026**
 
 ## Acceptance of Terms
 
@@ -51,7 +51,8 @@ You may not:
 ## Privacy and Data
 
 - Your financial data is stored locally on your device
-- No data is transmitted to external servers
+- Optional iCloud sync allows for encrypted data parity across your private devices
+- A dashboard sync indicator provides real-time connectivity feedback when sync is enabled
 - We do not collect, store, or share personal information
 - See our Privacy Policy for complete details
 

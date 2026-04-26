@@ -13,7 +13,9 @@ DueDock does not collect, store, or transmit your financial data, bill informati
   synced across your Apple devices using your private iCloud account.
 - **iCloud Sync (CloudKit)**: DueDock uses Apple's CloudKit to keep
   your data in sync between your iPhone, iPad, and Mac. This sync 
-  happens entirely within your private, encrypted Apple ecosystem.
+  happens entirely within your private, encrypted Apple ecosystem. 
+  A visual status indicator on the dashboard provides real-time feedback 
+  on your iCloud connectivity.
 - **No Developer Access**: We (the developers) do not have a central
   database. We cannot see, collect, or sell your financial data. 
   It belongs to you and stays within your private iCloud account.
@@ -65,4 +67,4 @@ If you have questions about this privacy policy or DueDock's data practices:
 
 If we update this privacy policy, we will post the new policy in the app and on our GitHub repository with an updated revision date.
 
-**Last Updated: March 31, 2026**
+**Last Updated: April 12, 2026**
