@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DueDock FAQ</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+
+        .github-corner, .site-header, header, .repo-name, .repository-name,
+        .page-title, .site-title, .github-fork-ribbon, .fork-me,
+        .github-corner svg, .octo-cat, .octo-arm, nav, .navigation, .breadcrumb {
+            display: none !important;
+        }
+
+        h1 {
+            color: #007AFF;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 36px;
+            border-left: 4px solid #007AFF;
+            padding-left: 12px;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 24px;
+        }
+
+        details {
+            margin: 12px 0;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        summary {
+            padding: 14px 16px;
+            font-weight: 600;
+            cursor: pointer;
+            background: #f8f9fa;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        summary::-webkit-details-marker { display: none; }
+
+        summary::after {
+            content: '+';
+            font-size: 1.2em;
+            color: #007AFF;
+            font-weight: 300;
+        }
+
+        details[open] summary::after {
+            content: '−';
+        }
+
+        details[open] summary {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .faq-answer {
+            padding: 14px 16px;
+            background: #fff;
+        }
+
+        .faq-answer p { margin: 0 0 8px; }
+        .faq-answer p:last-child { margin-bottom: 0; }
+        .faq-answer ul { margin: 8px 0; padding-left: 20px; }
+        .faq-answer li { margin-bottom: 4px; }
+
+        .badge {
+            display: inline-block;
+            background: #FF9500;
+            color: white;
+            font-size: 0.7em;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .badge.free {
+            background: #34C759;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+            padding: 12px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .nav-links a {
+            color: #007AFF;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+
+        .nav-links a:hover { text-decoration: underline; }
+
+        .footer {
+            margin-top: 48px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var originalTitle = document.title;
+            if (originalTitle.includes('|')) {
+                document.title = originalTitle.split('|')[0].trim();
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="nav-links">
+        <a href="index.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="user-guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+    </div>
+
+    <h1>DueDock FAQ</h1>
+    <p>Answers to common questions about DueDock. Can't find what you're looking for? Email us at <a href="mailto:support@duedock.app">support@duedock.app</a>.</p>
+
+    <!-- GETTING STARTED -->
+    <h2>Getting Started</h2>
+
+    <details>
+        <summary>What is DueDock?</summary>
+        <div class="faq-answer">
+            <p>DueDock is a privacy-first bill management app for iPhone and iPad. It helps you track upcoming bills and income, plan ahead so you never miss a payment, and optionally share a household bill plan with a partner.</p>
+            <p>Unlike traditional budget apps that focus on past spending, DueDock focuses on what's coming next — so you can always see if your income covers your upcoming bills.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I get started?</summary>
+        <div class="faq-answer">
+            <ul>
+                <li><strong>Add your income</strong>: Tap the + button and choose "Income Source". Enter your pay amount and frequency.</li>
+                <li><strong>Add your bills</strong>: Tap the + button and choose "Bill". Enter the name, amount, and due date.</li>
+                <li><strong>Check the Coverage Check</strong>: The dashboard automatically shows whether your next income covers your upcoming bills.</li>
+            </ul>
+            <p>The onboarding walkthrough will guide you through this on first launch.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Do I need to create an account?</summary>
+        <div class="faq-answer">
+            <p>No. DueDock works completely without an account. Your data is stored privately on your device. No signup, no login, no email required.</p>
+            <p>If you enable iCloud Sync (Premium), your Apple ID is used to sync data between your own devices — but you never create a DueDock account.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Can I try DueDock before adding my real data?</summary>
+        <div class="faq-answer">
+            <p>Yes — use <strong>Demo Mode</strong>. Tap the DueDock logo on the dashboard, then select "Try Demo Mode". It loads realistic sample bills, income sources, and goals so you can explore every feature risk-free.</p>
+            <p><strong>Note:</strong> Starting Demo Mode replaces your existing data with sample data. Exit Demo Mode to start fresh.</p>
+        </div>
+    </details>
+
+    <!-- BILLS & INCOME -->
+    <h2>Bills &amp; Income</h2>
+
+    <details>
+        <summary>What is "docking" a bill?</summary>
+        <div class="faq-answer">
+            <p>Docking a bill means recording that you've paid it. Swipe right on any bill to dock it. You can dock the full amount, a partial amount, or a custom amount.</p>
+            <p>DueDock doesn't connect to your bank — docking is simply your record that the payment has been made.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What are variable bills?</summary>
+        <div class="faq-answer">
+            <p>Variable bills are bills whose amount changes each period — like a credit card statement or a utility bill. Mark a bill as "Variable" when adding it, and enter the actual amount each month when you receive it.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What is the Coverage Check?</summary>
+        <div class="faq-answer">
+            <p>The Coverage Check is DueDock's core feature. It compares:</p>
+            <ul>
+                <li>The total of bills due before your next income date</li>
+                <li>Your next income amount</li>
+            </ul>
+            <p>This tells you at a glance whether you have enough money coming in to cover what's going out. Use the +/− buttons to navigate between pay periods.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What are "same-day conflicts"?</summary>
+        <div class="faq-answer">
+            <p>A same-day conflict occurs when a bill is due on the same day as your income. Pre-authorized payments often require funds to be available the day before — so DueDock flags these and lets you decide whether to include them in the coverage total.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Can I set up recurring bills?</summary>
+        <div class="faq-answer">
+            <p>Yes. When adding a bill, set a frequency (weekly, bi-weekly, monthly, quarterly, annually, etc.). DueDock automatically calculates the next due date after each payment.</p>
+        </div>
+    </details>
+
+    <!-- PREMIUM FEATURES -->
+    <h2>Premium Features</h2>
+
+    <details>
+        <summary>What features are free vs. premium?</summary>
+        <div class="faq-answer">
+            <p><strong>Free tier includes:</strong></p>
+            <ul>
+                <li>Up to 15 bills</li>
+                <li>Up to 2 account nicknames</li>
+                <li>Up to 2 savings goals</li>
+                <li>Coverage Check and planning</li>
+                <li>Calendar view, undo/redo, notifications</li>
+                <li>Demo Mode</li>
+            </ul>
+            <p><strong>Premium unlocks:</strong></p>
+            <ul>
+                <li>Unlimited bills, accounts, and savings goals</li>
+                <li>iCloud Sync &amp; Partner Collaboration</li>
+                <li>Bill Tagging &amp; Filtering</li>
+                <li>Bill Scanner (camera-based entry)</li>
+                <li>Scheduled Installments</li>
+                <li>Payment History &amp; Proof</li>
+                <li>Debt Mode</li>
+                <li>Pre-Authorized Alerts</li>
+                <li>Backup &amp; Export</li>
+                <li>Privacy Lock</li>
+                <li>Priority Support</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I upgrade to Premium? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>Tap any feature with a lock icon, or go to <strong>Settings → About → Upgrade to Premium</strong>. Choose from:</p>
+            <ul>
+                <li><strong>Monthly</strong>: Auto-renewing monthly subscription</li>
+                <li><strong>Annual</strong>: Auto-renewing yearly subscription (best value)</li>
+                <li><strong>Lifetime</strong>: One-time purchase, no recurring charges</li>
+            </ul>
+            <p>Prices are shown in your local currency in the App Store before purchase.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I restore a previous purchase? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>Open the paywall screen (tap any premium feature or Settings → About → Upgrade) and tap <strong>Restore Purchases</strong>. Make sure you're signed in to the same Apple ID you used when you originally purchased.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What is iCloud Sync? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>iCloud Sync keeps your bills, income, and settings up to date across all your Apple devices (iPhone, iPad). It uses Apple's CloudKit — your data stays in your private iCloud account and is never accessible to us.</p>
+            <p>Enable it in <strong>Settings → Connectivity → iCloud Sync</strong>. A restart is required to activate.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What is Partner Collaboration? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>Partner Collaboration lets you share a joint bill plan with one other person (spouse, roommate, family member). You each see your own private data plus the shared plan.</p>
+            <ul>
+                <li>Requires iCloud Sync to be enabled (Premium)</li>
+                <li>Invite your partner from <strong>Settings → Connectivity → Partner Collaboration</strong></li>
+                <li>Your partner receives an iCloud sharing invitation</li>
+                <li>Once accepted, the shared zone appears on both dashboards</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>What is Debt Mode? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>Debt Mode is designed for credit cards and loans. It lets you set a minimum payment amount and a statement close date, so the Coverage Check uses the minimum payment instead of the full outstanding balance for planning purposes.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What are Scheduled Installments? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>Installments let you split a large bill into smaller scheduled payments aligned with your income frequency. The progress bar on the dashboard tracks how much you've paid towards the current installment target.</p>
+        </div>
+    </details>
+
+    <!-- PRIVACY & DATA -->
+    <h2>Privacy &amp; Data</h2>
+
+    <details>
+        <summary>Where is my data stored?</summary>
+        <div class="faq-answer">
+            <p>By default, all your data is stored locally on your device only. DueDock does not transmit any financial or personal data to external servers.</p>
+            <p>If you enable iCloud Sync (Premium), your data is additionally stored in your private iCloud account using Apple's CloudKit. We (the developers) have no access to your iCloud data.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Does DueDock connect to my bank?</summary>
+        <div class="faq-answer">
+            <p>No. DueDock never connects to your bank or any financial institution. You manually enter your bills and income. This is intentional — it keeps your financial credentials completely private.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What permissions does DueDock request?</summary>
+        <div class="faq-answer">
+            <ul>
+                <li><strong>Camera</strong>: For the Bill Scanner (scanning paper bills) and attaching receipt photos. All processing is on-device.</li>
+                <li><strong>Calendar</strong>: To cross-reference payment dates with regional holidays. We don't read your events or write to your calendar.</li>
+                <li><strong>Face ID / Touch ID</strong>: Used locally for the Privacy Lock feature (Premium). Never transmitted.</li>
+                <li><strong>Notifications</strong>: For payment reminders. All local — no push servers involved.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I delete all my data?</summary>
+        <div class="faq-answer">
+            <p>Go to <strong>Settings → Danger Zone → Clear All Data</strong>. This permanently deletes all bills, income, payment history, and settings from your device.</p>
+            <p>If iCloud Sync is enabled, you should also disable it before clearing data to avoid the data re-syncing from iCloud.</p>
+        </div>
+    </details>
+
+    <!-- BACKUP & SYNC -->
+    <h2>Backup &amp; Sync</h2>
+
+    <details>
+        <summary>How do I back up my data? <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <p>Go to <strong>Settings → Backup &amp; Data → Backup Now</strong>. This creates a complete backup file (bills, income, payment history, logos, tags, settings) that you can save to Files, iCloud Drive, or share anywhere.</p>
+            <p>Autosave runs automatically in the background. Browse autosaves from the Autosave Manager in Settings.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I restore a backup?</summary>
+        <div class="faq-answer">
+            <p>Go to <strong>Settings → Backup &amp; Data → Import Backup</strong> and select your backup file. Your data will be fully restored.</p>
+            <p><strong>Warning:</strong> Importing a backup replaces all current data. Back up first if you want to keep your current data.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I move DueDock to a new device?</summary>
+        <div class="faq-answer">
+            <p>Two options:</p>
+            <ul>
+                <li><strong>iCloud Sync (Premium)</strong>: Enable iCloud Sync on both devices. Your data will sync automatically.</li>
+                <li><strong>Manual Backup</strong>: Create a backup on your old device, transfer the file, and import it on your new device.</li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- TROUBLESHOOTING -->
+    <h2>Troubleshooting</h2>
+
+    <details>
+        <summary>My bills aren't showing in the Coverage Check</summary>
+        <div class="faq-answer">
+            <p>The Coverage Check only shows bills due within the selected planning period (before your next income date). Try these:</p>
+            <ul>
+                <li>Check that each bill has a correct "Next Due Date"</li>
+                <li>Use the +/− buttons to change the planning period</li>
+                <li>Check that the bill's "Include in Coverage" setting is enabled</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>iCloud Sync isn't working <span class="badge">Premium</span></summary>
+        <div class="faq-answer">
+            <ul>
+                <li>Make sure you're signed in to iCloud on both devices (Settings app → your name)</li>
+                <li>Ensure iCloud Drive is enabled for DueDock in iOS Settings → your name → iCloud</li>
+                <li>A restart is required after enabling iCloud Sync in DueDock — make sure you completed the restart</li>
+                <li>Check your internet connection</li>
+                <li>iCloud sync can take a few minutes on first enable</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>I lost my premium purchase after reinstalling</summary>
+        <div class="faq-answer">
+            <p>Tap any premium feature to open the paywall, then tap <strong>Restore Purchases</strong>. Make sure you're signed in to the same Apple ID used when you originally purchased. Your purchase is tied to your Apple ID, not your device.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Notifications aren't working</summary>
+        <div class="faq-answer">
+            <ul>
+                <li>Go to iPhone Settings → Notifications → DueDock and ensure notifications are allowed</li>
+                <li>In DueDock Settings → Notifications, make sure notifications are enabled and the timing is set</li>
+                <li>Each bill must also have "Reminder" enabled in its individual settings</li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- CONTACT -->
+    <h2>Still Need Help?</h2>
+    <p>We're happy to help. Reach us at:</p>
+    <ul>
+        <li><strong>Support:</strong> <a href="mailto:support@duedock.app">support@duedock.app</a></li>
+        <li><strong>Privacy:</strong> <a href="mailto:privacy@duedock.app">privacy@duedock.app</a></li>
+    </ul>
+    <p>Also check the <a href="user-guide.html">User Guide</a> for detailed feature documentation.</p>
+
+    <div class="footer">
+        <p><strong>DueDock is created by Marty Ashfield. All rights reserved.</strong></p>
+        <p><em>Last Updated: April 27, 2026</em></p>
+    </div>
+</body>
+
+</html>
