@@ -230,6 +230,20 @@
         </div>
     </details>
 
+    <details>
+        <summary>How does the due date advance after I dock a recurring bill?</summary>
+        <div class="faq-answer">
+            <p>When you dock a recurring bill, its due date automatically advances to the next occurrence. For example, a monthly bill due on August 15th will automatically change to September 15th once docked. No manual update needed.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Why can't I delete an account?</summary>
+        <div class="faq-answer">
+            <p>An account cannot be deleted if it has bills assigned to it — this prevents accidental data loss. To delete an account, first re-assign its bills to a different account, or delete those bills, then try again.</p>
+        </div>
+    </details>
+
     <!-- PREMIUM FEATURES -->
     <h2>Premium Features</h2>
 
@@ -317,6 +331,35 @@
         </div>
     </details>
 
+    <!-- CONNECTIVITY -->
+    <h2>Connectivity &amp; Privacy</h2>
+
+    <details>
+        <summary>Does DueDock require an internet connection?</summary>
+        <div class="faq-answer">
+            <p>No. DueDock is designed to work 100% offline. Your financial data never leaves your device. The only optional network activity is:</p>
+            <ul>
+                <li><strong>iCloud Sync (Premium)</strong>: syncs within your private Apple account</li>
+                <li><strong>Logo fetching</strong>: only when you explicitly tap "Fetch Logo" on a bill</li>
+                <li><strong>Check for updates</strong>: optional, in Settings</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>How does website logo fetching work?</summary>
+        <div class="faq-answer">
+            <p>When you add a website URL to a bill and tap <strong>Fetch Logo</strong>, DueDock uses Apple's LinkPresentation framework to retrieve that website's icon. This process:</p>
+            <ul>
+                <li>Only contacts the specific website you specified</li>
+                <li>Uses Apple's optimized caching to minimize requests</li>
+                <li>Does not collect or store any personal data</li>
+                <li>Works through Apple's secure network infrastructure</li>
+            </ul>
+            <p>The logo is stored locally on your device. You can clear the logo cache at any time in Settings. DueDock never sends your financial data to any external server.</p>
+        </div>
+    </details>
+
     <!-- PRIVACY & DATA -->
     <h2>Privacy &amp; Data</h2>
 
@@ -363,6 +406,14 @@
         <div class="faq-answer">
             <p>Go to <strong>Settings → Backup &amp; Data → Backup Now</strong>. This creates a complete backup file (bills, income, payment history, logos, tags, settings) that you can save to Files, iCloud Drive, or share anywhere.</p>
             <p>Autosave runs automatically in the background. Browse autosaves from the Autosave Manager in Settings.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What's the difference between Autosave and Export?</summary>
+        <div class="faq-answer">
+            <p><strong>Autosave</strong> is automatic — DueDock silently saves a backup to a dedicated <em>DueDockAutosave</em> folder in your Files app. Convenient, but <strong>this folder is deleted if you uninstall DueDock</strong>.</p>
+            <p><strong>Export</strong> creates a permanent backup file you control — save it to iCloud Drive, another app, email it to yourself, etc. Use Export for any backup you want to keep long-term or transfer to a new device.</p>
         </div>
     </details>
 
