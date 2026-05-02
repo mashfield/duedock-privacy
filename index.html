@@ -47,12 +47,6 @@
             display: none !important;
         }
 
-        h1 {
-            color: #007AFF;
-            border-bottom: 2px solid #007AFF;
-            padding-bottom: 10px;
-        }
-
         h2 {
             color: #333;
             margin-top: 30px;
@@ -82,6 +76,17 @@
         .brand-due {
             color: #FF9500;
             font-weight: inherit;
+        }
+
+        /* Ensure "Dock" uses default text color, not h1 blue */
+        h1 .brand-due {
+            color: #FF9500;
+        }
+
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
         }
     </style>
     <script>

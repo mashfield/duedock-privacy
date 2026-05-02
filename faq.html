@@ -22,7 +22,7 @@
         }
 
         h1 {
-            color: #007AFF;
+            color: #333;
             border-bottom: 2px solid #007AFF;
             padding-bottom: 10px;
         }
@@ -130,6 +130,16 @@
             color: #FF9500;
             font-weight: inherit;
         }
+
+        /* Keep summary text together in flex layout */
+        summary .summary-text {
+            flex: 1;
+        }
+
+        /* Ensure "Due" stays orange in headings */
+        h1 .brand-due {
+            color: #FF9500;
+        }
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -156,7 +166,7 @@
     <h2>Getting Started</h2>
 
     <details>
-        <summary>What is <span class="brand-due">Due</span>Dock?</summary>
+        <summary><span class="summary-text">What is <span class="brand-due">Due</span>Dock?</span></summary>
         <div class="faq-answer">
             <p><span class="brand-due">Due</span>Dock is a privacy-first bill management app for iPhone and iPad. It helps you track upcoming bills and income, plan ahead so you never miss a payment, and optionally share a household bill plan with a partner.</p>
             <p>Unlike traditional budget apps that focus on past spending, <span class="brand-due">Due</span>Dock focuses on what's coming next — so you can always see if your income covers your upcoming bills.</p>
@@ -184,7 +194,7 @@
     </details>
 
     <details>
-        <summary>Can I try <span class="brand-due">Due</span>Dock before adding my real data?</summary>
+        <summary><span class="summary-text">Can I try <span class="brand-due">Due</span>Dock before adding my real data?</span></summary>
         <div class="faq-answer">
             <p>Yes — use <strong>Demo Mode</strong>. Tap the <span class="brand-due">Due</span>Dock logo on the dashboard, then select "Try Demo Mode". It loads realistic sample bills, income sources, and goals so you can explore every feature risk-free.</p>
             <p><strong>Note:</strong> Starting Demo Mode replaces your existing data with sample data. Exit Demo Mode to start fresh.</p>
@@ -353,7 +363,7 @@
     <h2>Connectivity &amp; Privacy</h2>
 
     <details>
-        <summary>Does <span class="brand-due">Due</span>Dock require an internet connection?</summary>
+        <summary><span class="summary-text">Does <span class="brand-due">Due</span>Dock require an internet connection?</span></summary>
         <div class="faq-answer">
             <p>No. <span class="brand-due">Due</span>Dock is designed to work 100% offline. Your financial data never leaves your device. The only optional network activity is:</p>
             <ul>
@@ -390,14 +400,14 @@
     </details>
 
     <details>
-        <summary>Does <span class="brand-due">Due</span>Dock connect to my bank?</summary>
+        <summary><span class="summary-text">Does <span class="brand-due">Due</span>Dock connect to my bank?</span></summary>
         <div class="faq-answer">
             <p>No. <span class="brand-due">Due</span>Dock never connects to your bank or any financial institution. You manually enter your bills and income. This is intentional — it keeps your financial credentials completely private.</p>
         </div>
     </details>
 
     <details>
-        <summary>What permissions does <span class="brand-due">Due</span>Dock request?</summary>
+        <summary><span class="summary-text">What permissions does <span class="brand-due">Due</span>Dock request?</span></summary>
         <div class="faq-answer">
             <ul>
                 <li><strong>Camera</strong>: For the Bill Scanner (scanning paper bills) and attaching receipt photos. All processing is on-device.</li>
@@ -444,7 +454,7 @@
     </details>
 
     <details>
-        <summary>How do I move <span class="brand-due">Due</span>Dock to a new device?</summary>
+        <summary><span class="summary-text">How do I move <span class="brand-due">Due</span>Dock to a new device?</span></summary>
         <div class="faq-answer">
             <p>Two options:</p>
             <ul>
