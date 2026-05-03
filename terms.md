@@ -13,10 +13,11 @@ DueDock is licensed to you on a limited, non-exclusive, non-transferable, revoca
 ## Permitted Uses
 
 You may use DueDock for personal, non-commercial purposes to:
-- Track personal bills and income
+- Track personal bills
 - Manage personal financial planning
 - Store personal payment history
 - Use premium features if purchased
+- DueDock offers an optional Partner Collaboration feature (Premium) that allows you to share your financial dashboard with other users (your "partners").
 
 ## Restrictions
 
